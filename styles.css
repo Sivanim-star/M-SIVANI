@@ -1,0 +1,295 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  baclground-size: cover;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+p {
+  color: #fff;
+}
+
+/* Header Styles */
+.header {
+  background-color: #a2e3ed ;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar {
+  padding: 0 10px;
+}
+
+
+.nav-link {
+  color: #2597a9 !important;
+  font-size: 18px !important;
+  padding: 5px 10px !important;
+  display: unset !important;
+  border: 2px solid #a2e3ed ; /* White border */
+  border-radius: 5px; /* Slight rounding of the borders */
+  transition: 0.3s ease; /* Smooth transition effect */
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.nav-link:hover {
+  color: #2597a9 !important; /* Changes text color on hover */
+  background-color: #a2e3ed; /* Background color changes to white */
+  border-color: lightseagreen; /* Border color changes to lightseagreen */
+}
+
+
+
+
+
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 5px;
+}
+
+/* Content Section */
+.content {
+  padding: 300px 0;
+  background: url(https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#btn1 button {
+  margin-top: 20px;
+}
+.header-part {
+  color: grey;
+  font-size: 90%;
+}
+
+/* Why Healthbit Section */
+/* Why Healthbit Section Styling */
+.abt {
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 50px;
+  background: linear-gradient(135deg, lightseagreen, darkcyan);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.abt h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.abt_us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benifit-sec{
+  text-align: center;
+}
+.card_body {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card1_para, .card1_para1 {
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Card hover effect */
+.card_body:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+.card-text{
+  color: grey;
+  font-size: 120%;
+
+}
+
+
+
+/* Task Section */
+.task {
+  display: grid;
+  place-content: center;
+  inset: 0;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.card_t {
+  border-radius: 1.5rem;
+  height: 1000vh;
+  aspect-ratio: 9 / 16;
+  background: url("https://t3.ftcdn.net/jpg/01/43/69/60/360_F_143696091_qkWaHVM4txdMK8SWlEhVqrn8fQjee7pL.jpg");
+  background-size: cover;
+  box-shadow: 50px 50px 30px rgba(0, 0, 0, 0.3);
+  transform: rotateX(6deg) rotateY(5deg);
+}
+.card-ti{
+  padding-bottom: 40px;
+  font-size: 50px;
+  font: bold;
+  margin-left: 80px;
+}
+.card-txt{
+  color: #348f9d;
+  font-size: 150%;
+  
+  text-align: center;
+
+}
+#tg button {
+  width: 200px; /* Change the width */
+  height: 50px; /* Change the height */
+  font-size: 18px; /* Adjust font size */
+  padding: 10px 20px; /* Adjust padding for more space inside the button */
+  background: transparent;
+  border: 1px solid black;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#tg button:hover {
+  background-color: lightseagreen;
+}
+
+/* Transformation Section */
+.trans .card {
+  margin-top: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  padding: 20px 50px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(32,178,170,0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow for depth */
+}
+
+
+.trans .card-title {
+  font-size: 22px;
+}
+.Transformation-text{
+  color: grey;
+  font-size: 140%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header .navbar-nav {
+    text-align: center;
+  }
+
+  .content {
+    padding: 50px 0;
+  }
+
+  .content h1 {
+    font-size: 36px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .abt {
+    padding: 30px;
+  }
+
+  .task {
+    padding: 30px;
+  }
+
+  .task .card-title {
+    font-size: 28px;
+  }
+
+  .task .card-text {
+    font-size: 18px;
+  }
+
+  .trans .card {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+.contact-section {
+      margin-top: 100px;
+      padding: 50px 0;
+      background-color: #f8f9fa; /* Light background for contrast */
+    }
+    
+    .contact-title {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form .form-group {
+      margin-bottom: 15px;
+    }
+
+    .contact-form button {
+      background-color: #28a745; /* Green color for submit button */
+      color: white;
+    }
